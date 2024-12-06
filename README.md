@@ -101,7 +101,7 @@ Compilation flags used:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/libft.git
+git clone https://github.com/hermeszi/libft.git
 ```
 
 2. Include the header in your source files:
