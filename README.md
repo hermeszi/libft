@@ -1,9 +1,19 @@
 # libft
-My implementation of the 42 school's libft project - a custom C library with essential functions.
+
+My implementation of the 42 school's libft project - an enhanced C library with additional utility functions beyond the standard requirements.
 
 ## 📚 About
 
 This project is my extended version of the 42 school's libft assignment. While it includes all the required functions from the curriculum, I've added several useful additions to make it more practical for real-world usage.
+
+## 📂 Project Structure
+```
+.
+├── libft.h         # Main header file
+├── Makefile        # Build configuration
+├── obj/            # Object files directory (created during build)
+└── *.c             # Source files
+```
 
 ## 🛠️ Functions
 
@@ -69,47 +79,53 @@ void    ft_putendl_fd(char *s, int fd);
 void    ft_putnbr_fd(int n, int fd);
 ```
 
-## 🚀 Usage
+## 🚀 Compilation and Usage
+
+### Building the Library
+
+The project includes a Makefile with the following rules:
+
+```bash
+make        # Compile the library
+make clean  # Remove object files
+make fclean # Remove object files and library
+make re     # Rebuild everything
+```
+
+Compilation flags used:
+- `-Wall -Wextra -Werror -g`
+- Compiler: cc
+- Archiver: ar rcs
+
+### Using in Your Project
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/[your-username]/libft.git
 ```
 
-2. Compile the library:
-```bash
-make
-```
-This will create `libft.a`
-
-3. To use in your project:
-- Include the header:
+2. Include the header in your source files:
 ```c
 #include "libft.h"
 ```
-- Compile with the library:
+
+3. Compile with the library:
 ```bash
 cc your_program.c -L. -lft
 ```
-
-## ⚙️ Testing
-
-- `make` - Compile the library
-- `make clean` - Remove object files
-- `make fclean` - Remove object files and the library
-- `make re` - Recompile everything
 
 ## 📝 Notes
 
 - All functions are norm-compliant (42 coding standards)
 - Includes additional utility functions beyond the base requirements
 - All memory operations are leak-free
-- Compiles with -Wall -Wextra -Werror
+- Object files are organized in a separate 'obj' directory
 - Includes useful macros (commented out in header due to norm)
 
 ## 📜 License
 
 This project is part of 42 school's curriculum. Feel free to use it as a reference, but please be mindful of the school's academic integrity policies.
+Also, I am constantly experimenting with different code, so the functions may not work as described.
 
 ## ✨ Contributing
 
