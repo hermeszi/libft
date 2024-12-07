@@ -1,6 +1,6 @@
 # libft
 
-My implementation of the 42 school's libft project - an enhanced C library with additional utility functions beyond the standard requirements.
+My implementation of the 42 school's libft project - a remake of C libraries with additional utility functions beyond the standard requirements.
 
 ## 📚 About
 
@@ -127,14 +127,6 @@ cc your_program.c -L. -lft
 This project is part of 42 school's curriculum. Feel free to use it as a reference, but please be mindful of the school's academic integrity policies.
 Also, I am constantly experimenting with different code, so the functions may not work as described.
 
-## ✨ Contributing
-
-If you find any bugs or have suggestions for improvements:
-1. Fork the project
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
 
 ## 👤 Author
 
