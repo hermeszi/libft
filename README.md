@@ -1,6 +1,6 @@
 # libft
 
-My implementation of the 42 school's libft project - a remake of C libraries with additional utility functions beyond the standard requirements.
+My implementation of the 42 school's libft project - a remake of C libraries with additional utility functions.
 
 ## 📚 About
 
@@ -113,14 +113,6 @@ git clone https://github.com/hermeszi/libft.git
 ```bash
 cc your_program.c -L. -lft
 ```
-
-## 📝 Notes
-
-- All functions are norm-compliant (42 coding standards)
-- Includes additional utility functions beyond the base requirements
-- All memory operations are leak-free
-- Object files are organized in a separate 'obj' directory
-- Includes useful macros (commented out in header due to norm)
 
 ## 📜 License
 
